@@ -32,16 +32,17 @@
 
 
 
-.table, th, td {
+table, th, td {
 border: 1px solid green;
 border-radius: 15px;
 }
- table {
+
+table {
   width: 70%;
-  background-color: white;
+
 }
  th{
-  height: 40px;
+  height: 14%;
  }
  td {
    text-align: center;
