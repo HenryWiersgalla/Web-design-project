@@ -30,6 +30,10 @@
 }
 
 
+#roundcorners {
+  border-radius: 25px;
+  border-width: medium;
+}
 
 
 table {
