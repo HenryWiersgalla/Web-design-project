@@ -32,12 +32,12 @@
 
 
 
-.gorillatable, th, td {
-border: 1px solid green;
+table, th, td {
+border: 30px solid green;
 border-radius: 15px;
 }
 
-.gorillatable {
+table {
   width: 70%;
 
 }
