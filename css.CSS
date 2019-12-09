@@ -4,7 +4,7 @@
   height: 100%;
   width: 100%;
   grid-template: repeat(4, 1fr) / repeat(5, 1fr);
-  background-image: url(jungle.jpg);
+  background-image: url(funky.jpg);
   background-size: cover;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .box {
-  background-color: green;
+  background-color: transparent;
   color: black;
   border-radius: 5px;
   border: 2px dodgerblue solid;
