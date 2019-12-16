@@ -1,3 +1,54 @@
-body{
-  background-color:lightblue;
+.grid {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  background-color: A3DEE2;
+  background-image: url(leaves-top.png);
+  background-size: cover;
+}
+
+.a {
+  grid-area: 1 / 1 / 1 / span 4;
+
+}
+
+.b {
+  grid-area: 2 / 2 / 2 / span 2;
+background-color: green;
+}
+
+.c {
+  grid-area: 3 / 2 / 3 / 2;
+  background-color: yellow;
+}
+
+.d {
+  grid-area: 3 / 3 / 3 / 3;
+  background-color: pink;
+}
+
+.e {
+  grid-area: 4 / 1 / 4 / 1;
+  background-color: orange;
+}
+
+.f {
+  grid-area: 4 / 2 / 4 / 2;
+  background-color: red;
+}
+
+.g {
+  grid-area: 4 / 3 / 4 / 3;
+  background-color: purple;
+}
+
+.h {
+  grid-area: 4 / 4 / 4 / 4;
+  background-color: gray;
+}
+
+.box {
+  color: black;
+
 }
