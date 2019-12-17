@@ -14,17 +14,14 @@
 
 .b {
   grid-area: 2 / 2 / 2 / span 2;
-background-color: green;
 }
 
 .c {
   grid-area: 3 / 2 / 3 / 2;
-  background-color: yellow;
 }
 
 .d {
   grid-area: 3 / 3 / 3 / 3;
-  background-color: pink;
 }
 
 .e {
