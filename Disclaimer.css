@@ -1,11 +1,8 @@
-video {
-    position:absolute;
-    transform:rotate(90deg);
-    width: 100%;
-    height: 100%;
-    z-index:4;
-    visibility : visible;
-}
-body {
-  background-clip: url(GorillaTossesMud.MP4)
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
