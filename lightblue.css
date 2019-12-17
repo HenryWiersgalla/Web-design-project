@@ -3,9 +3,8 @@
   height: 100%;
   width: 100%;
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
-  background-color: A3DEE2;
-  background-image: url(leaves-top.png);
-  background-size: cover;
+  background-image: url(leaves3big2.png), linear-gradient(#00DEFF, black);
+  background-size: contain;
 }
 
 .a {
@@ -30,22 +29,22 @@ background-color: green;
 
 .e {
   grid-area: 4 / 1 / 4 / 1;
-  background-color: orange;
+  background-color: transparent;
 }
 
 .f {
   grid-area: 4 / 2 / 4 / 2;
-  background-color: red;
+  background-color: transparent;
 }
 
 .g {
   grid-area: 4 / 3 / 4 / 3;
-  background-color: purple;
+  background-color: transparent;
 }
 
 .h {
   grid-area: 4 / 4 / 4 / 4;
-  background-color: gray;
+  background-color: transparent;
 }
 
 .box {
