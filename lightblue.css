@@ -4,7 +4,9 @@
   width: 100%;
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
   background-image: url(leaves3big2.png), linear-gradient(#00DEFF, black);
-  background-size: contain;
+  background-size: cover;
+background-repeat: repeat-x;
+padding: 0;
 }
 
 .a {
@@ -47,4 +49,47 @@
 .box {
   color: black;
 
+}
+
+
+/* Below is the dropdown menu test text */
+
+
+.nav {
+  width: 100%;
+  background: #1e8449;
+  color: #f0f0f0;
+}
+.nav a {
+  display: block;
+  padding: 0 16px;
+  line-height: inherit;
+  cursor: pointer;
+}
+.nav__menu {
+  line-height: 45px;
+  font-weight: 700;
+  align-self: auto;
+  text-transform: uppercase;
+}
+.nav__menu-item {
+  display: inline-block;
+  position: relative;
+}
+.nav__menu-item:hover {
+  background-color: black;
+}
+.nav__menu-item:hover .nav__submenu {
+  display: block;
+}
+.nav__submenu {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: 220px;
+  background-color: #DC1919;
+}
+.nav__submenu-item:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
