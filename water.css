@@ -1,1 +1,15 @@
-
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+body {
+ background-image: url("gorillaunderwater.jpg");
+ background-size: cover;
+ background-position: center;
+ background-color: #cccccc;
+}
+a {
+  font-family: "cursive";
+  font-size: 30px;
+  color: green;
+}
