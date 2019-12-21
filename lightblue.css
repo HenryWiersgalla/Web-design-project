@@ -3,7 +3,7 @@
   height: 100%;
   width: 100%;
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
-  background-image: url(leaves3big2.png), linear-gradient(#00DEFF, black);
+  background-image: url(images/leaves3big2.png), linear-gradient(#00DEFF, black);
   background-size: cover;
 background-repeat: repeat-x;
 padding: 0;

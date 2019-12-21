@@ -3,7 +3,7 @@
   height: 100%;
   width: 100%;
   grid-template: repeat(4, 1fr) / repeat(5, 1fr);
-  background-image: url(junky.jpg);
+  background-image: url(images/junky.jpg);
   background-size: auto;
 }
 
