@@ -1,29 +1,54 @@
+/* Current issues:
+- can see border of body behind the grid (make it look intentional)
+- ugly see-through strip above the menu bar
+- want to change what the text looks like in specifically the drop down portion of the menu (make it an image or a specific downloaded font)
+*/
+
+
+
+
+
+
+body{
+  background-image: url(images/leaves3big2.png), linear-gradient(#00DEFF, black);
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+
+
 .grid {
   display: grid;
   height: 100%;
   width: 100%;
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
-  background-image: url(images/leaves3big2.png), linear-gradient(#00DEFF, black);
-  background-size: cover;
-background-repeat: repeat-x;
-padding: 0;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .a {
   grid-area: 1 / 1 / 1 / span 4;
+  position: sticky;
 
 }
 
 .b {
-  grid-area: 2 / 2 / 2 / span 2;
+  font-family: 'Girassol', cursive;
+  grid-area: 2 / 1 / 2 / span 4;
+  font-size: 300%;
+  font-weight: 100;
+  padding: 50px;
 }
 
 .c {
   grid-area: 3 / 2 / 3 / 2;
+  padding-bottom: 70px;
 }
 
 .d {
   grid-area: 3 / 3 / 3 / 3;
+  padding-bottom: 70px;
 }
 
 .e {
@@ -53,11 +78,13 @@ padding: 0;
 
 
 /* Below is the dropdown menu test text */
+#submenutype{
 
+}
 
 .nav {
   width: 100%;
-  background: #1e8449;
+  background: darkgreen;
   color: #f0f0f0;
 }
 .nav a {
@@ -69,15 +96,14 @@ padding: 0;
 .nav__menu {
   line-height: 45px;
   font-weight: 700;
-  align-self: auto;
+  align-self: stretch;
   text-transform: uppercase;
 }
 .nav__menu-item {
   display: inline-block;
-  position: relative;
 }
 .nav__menu-item:hover {
-  background-color: black;
+  background-color: green;
 }
 .nav__menu-item:hover .nav__submenu {
   display: block;
@@ -88,8 +114,6 @@ padding: 0;
   display: none;
   position: absolute;
   width: 220px;
-  background-color: #DC1919;
-}
-.nav__submenu-item:hover {
-  background: rgba(0, 0, 0, 0.1);
+  color: red;
+  background-color: #00b300;
 }
