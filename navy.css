@@ -1,23 +1,58 @@
 body{
-  background-color: magenta;
+  overflow-y: scroll;
 }
 
-.grid{
-
+div{
+  position: relative;
 }
 
-.box{
-
+.treegradient{
+  z-index: 1;
+  left: 0px;
+  top: 0px;
 }
 
-.a{
-
+.one{
+  background-color: transparent;
+  height: 30px;
+  z-index: 3;
+  left: 0px;
+  top: 0px;
 }
 
-.b{
-
+.two{
+  background-color: transparent;
+  height: 350px;
+  z-index: 2;
+  left: 0px;
+  top: 30px;
 }
 
-.c{
+.three{
+  background-color: transparent;
+  height: 500px;
+  z-index: 2;
+  left: 0px;
+  top: 380px;
+}
 
+.four{
+  background-color: transparent;
+  height: 350px;
+  z-index: 2;
+}
+
+.five{
+  background-color: transparent;
+  height: 500px;
+}
+
+.six{
+  background-color: transparent;
+  height: 30px;
+}
+
+.seven{
+  background-color: transparent;
+  height: 75px;
 }
