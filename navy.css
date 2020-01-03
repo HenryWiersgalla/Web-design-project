@@ -65,99 +65,106 @@ div{
 hr{
   width: 70%;
   left: 15%;
-  height: 1px;
+  height: 2px;
   background-color: black;
 }
 
-table{
-  padding-top: 30px;
-  padding-bottom: 30px;
+table p{
+  font-family: 'Gelasio', serif;
 }
 
+table{
+  font-family: 'Gelasio', serif;
+}
 
-
-
-
+.firsthorizontal table, .secondhorizontal table, .thirdhorizontal table {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-color: transparent;
+}
 
 .firsthorizontal table{
-  border-color: transparent;
   padding-top: 60px;
 }
 
 .firsthorizontal table p{
   width: 60%;
   color: #092b24;
-  font-weight: bold;
+  font-weight: bolder;
   padding-left: 10%;
   font-size: 20px;
-  font-family: 'Gelasio', serif;
 }
 
-.firsthorizontal table img{
+.firsthorizontal table img, .thirdhorizontal table img{
   width: 60%;
   padding-right: 15%
 }
 
-
-
-
-
-
-
-
-
-.product table{
-  border-color: transparent;
-}
-
-.product table p{
+.secondhorizontal table p{
   width: 60%;
   color: #f5e8f1;
   padding-right: 15%;
   font-size: 20px;
-  font-family: 'Gelasio', serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
-.product table img{
+.secondhorizontal table img{
   width: 60%;
   padding-left: 10%;
 }
 
+.thirdhorizontal table p{
+  width: 60%;
+  color: #9EC7AA;
+  font-weight: bolder;
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+.thirdhorizontal table{
+  padding-bottom: 80px;
+}
 
 
 
 
+.contact table{
+  background-color: transparent;
+  border-color: transparent;
+  width: 100%;
+  border-top: 80px;
+  padding-top: 10px;
+  color: #9EC7AA;
+  background-color: #365c44;
+}
 
-
-.statementproduct table{
+.contactheader{
+  font-weight: bold;
+  color: #f5e8f1;
+  text-transform: uppercase;
   border-color: transparent;
 }
 
-.statementproduct table p{
-  width: 60%;
+.links table{
+  background-color: #0c2e28;
+  width: 100%;
   color: #9EC7AA;
-  font-weight: bold;
-  padding-left: 10%;
-  font-size: 20px;
-  font-family: 'Gelasio', serif;
+  border-color: transparent;
+  vertical-align: top;
 }
 
-.statementproduct table img{
-  width: 60%;
-  padding-right: 15%
+.links table a{
+  color: #9EC7AA;
 }
 
-
-
-
-
-.contact{
-  background-color: transparent;
-  height: 30px;
+.linksheader{
+  font-weight: bolder;
+  padding-top: 10px;
+  color: #f5e8f1;
 }
 
-.links{
-  background-color: transparent;
-  height: 75px;
+.linkscontent, .linksheader{
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
