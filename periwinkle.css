@@ -3,7 +3,7 @@ body{
 }
 
 .pinkblock{
-  background-color: #f5907c;
+  background-color: #93a0ca;
   width: 100%;
   height: 40%;
 }
@@ -12,34 +12,83 @@ body{
   background-color: white;
   bottom: 0px;
   width: 100%;
-  height: 300%;
+  height: 205%;
+}
+
+hr{
+  width: 80%;
+  left: 15%;
+  height: 5px;
+  background-color: #93a0ca;
 }
 
 .bottomblock{
-
 }
 
 .gorillalineup table{
   width: 100%;
-
+  padding: 10px;
+  border-collapse: collapse;
+  border-color: white;
+  border-left-color: gray;
+  border-right-color: gray;
+  border-spacing: 10px;
 }
 
 .profilepic img{
   height: 400px;
+  padding: 15px;
+}
+
+.swipeleft img{
+  padding-top: 10px;
 }
 
 .gorillabios p{
   height: 400px;
   font-size: 20px;
+  padding: 15px;
 }
 
+table .swipeleft{
+  border-top-color: white;
+}
 
+.swipeleft img{
+  padding: 5px;
+}
 
+table .profilepic{
+  border-bottom-color: gray;
+}
 
+.names .name{
+  font-weight: bold;
+  word-spacing: 7px;
+  padding-left: 20px;
+  font-size: 25px;
+  padding-top: 10px;
+}
 
+.names .distance{
+  font-size: 15px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: gray;
+}
 
+table .names{
+  border-bottom-color: lightgray;
+  font-family: 'Montserrat', sans-serif;
+  vertical-align: top;
+  line-height: 35px;
 
+}
 
+table .gorillabios{
+  font-family: 'Montserrat', sans-serif;
+  color: gray;
+}
 
 
 /*Below is the code for the menu button*/
@@ -74,7 +123,7 @@ body{
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #9EC7AA}
+.dropdown-content a:hover {background-color: #fbd2b2}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -82,4 +131,51 @@ body{
 
 .menuu{
   height: 100px;
+}
+
+
+
+
+
+
+
+.contact table{
+  background-color: transparent;
+  border-color: transparent;
+  width: 100%;
+  border-top: 80px;
+  padding-top: 10px;
+  color:  #fbd2b2;
+  background-color: #93a0ca;
+}
+
+.contactheader{
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  border-color: transparent;
+}
+
+.links table{
+  background-color: #01395e;
+  width: 100%;
+  color: #f5907c;
+  border-color: transparent;
+  vertical-align: top;
+}
+
+.links table a{
+  color: #f5907c;
+}
+
+.linksheader{
+  font-weight: bolder;
+  padding-top: 10px;
+  color: white;
+}
+
+.linkscontent, .linksheader{
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
