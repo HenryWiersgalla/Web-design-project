@@ -1,8 +1,23 @@
 
-.column {
-  width: 60;
-  align: right;
-  padding: 15px;
+.header{
+  background-color: green
+  padding: 20px;
+  text-align: center;
+}
+.column{
+  float: left;
+  width: 33.33%;
+  padding:15px;
+}
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px){
+  .column{
+    width: 100%;
+  }
 }
 img {
   max-width: 30%;

@@ -1,12 +1,39 @@
 <html>
 <head>
   <link rel='stylesheet' type='text/css' href='lb-check.css'>
-  <img src="images/lb-check.jpg">
+  
 
   </head>
   <body>
-    <a>
-<button class="button" onclick="outofstock.html"><span>Buy now </span></button>
-</a>
+
+
+<script>
+function myfunction(){
+  alert("Sorry we are temporarily out of stock, check back in a few days and maybe we will have what you are looking for.");
+}
+</script>
+<div class="header">
+  <h1>Header</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+
+
+<div class="row">
+  <div class="column">
+    <h2><img src="images/lb-check.jpg"></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+
+  <div class="column">
+    <h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+
+  <div class="column">
+    <h2><button class="button" onclick="myfunction()"> <span>Buy now </span></button></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+</div>
 </body>
 </html>
