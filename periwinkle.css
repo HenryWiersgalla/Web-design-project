@@ -91,7 +91,7 @@ table .gorillabios{
 /*Below is the code for the menu button*/
 
 .icon{
-  background-image: url(whitemenuicon.png);
+  background-image: url(images/whitemenuicon.png);
   background-size: contain;
   height: 70px;
   width: 70px;
