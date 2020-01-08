@@ -7,12 +7,12 @@ div{
 }
 
 .mainsection{
-  background-image:  url(treesofficial.jpg);
+  background-image:  url(images/treesofficial.jpg);
   background-size: cover;
 }
 
 .icon{
-  background-image: url(menuicon.png);
+  background-image: url(images/menuicon.png);
   background-size: contain;
   height: 70px;
   width: 70px;

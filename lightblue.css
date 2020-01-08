@@ -12,7 +12,7 @@ head{
 
 
 body{
-  background-image: url(lightbluebackground.jpg);
+  background-image: url(images/lightbluebackground.jpg);
   background-size: cover;
   background-repeat: repeat-x;
 }
