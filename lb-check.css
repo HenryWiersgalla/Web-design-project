@@ -5,9 +5,10 @@
   text-align: center;
 }
 .column{
-  float: left;
-  width: 33.33%;
+  float: auto;
+  width: auto;
   padding:15px;
+  color: white
 }
 .row:after {
   content:"";
@@ -20,8 +21,24 @@
   }
 }
 img {
-  max-width: 30%;
+  max-width: auto;
   height: auto;
+}
+p{
+  font-family: 'Indie Flower', cursive;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  background-image: url(images/CheckoutBackround.gif);
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+.header{
+  font-family: 'Seymour One', sans-serif;
 }
 .button {
   display: inline-block;
