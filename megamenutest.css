@@ -55,6 +55,13 @@
 
 }
 
+
+.col-sm-12{
+  background-image: url(images/longgorilla.jpg);
+}
+
+
+
 .thumbnail img{
   width: 100%;
 }
@@ -101,6 +108,11 @@
   list-style: none;
   font-family: 'Roboto', sans-serif;
 }
+
+.col-sm-3{
+  padding: 20px;
+}
+
 
 /* General styles to improve presentation */
 html, body {
