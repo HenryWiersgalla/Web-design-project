@@ -5,7 +5,7 @@ body{
 .pinkblock{
   background-color: #93a0ca;
   width: 100%;
-  height: 40%;
+  height: 60%;
 }
 
 
@@ -132,7 +132,9 @@ table .gorillabios{
 
 
 .header img{
-  height: 250px
+  height: 250px;
+  width: 100%;
+  z-index: 3;
 }
 
 

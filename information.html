@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Today's Date</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gorillas</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://skywalkapps.github.io/bootstrap-dropmenu/stylesheets/bootstrap-dropmenu.min.css">
     <link rel="stylesheet" href="megamenutest.css">
@@ -34,25 +36,23 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="dropdown dropdown-megamenu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Today <span class="sr-only">(current)</span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigation<span class="sr-only">(current)</span></a>
 
             <div class="dropdown-container">
               <div class="row">
                 <div class="col-sm-6 col-md-4">
                   <div class="media">
                     <div class="media-left">
-                      <a class="link-image" href="#"><img class="media-object" src="holder.js/100x100"></a>
-                      <a class="link-image link-image-sm" href="#"><img class="media-object" src="holder.js/46x46"></a>
-                      <a class="link-image link-image-sm" href="#"><img class="media-object" src="holder.js/46x46"></a>
+                      <img class="media-object" src="images/menuicon.png" height=46>
+                      <img class="media-object" src="images/menuicon.png" height=46>
+                      <img class="media-object" src="images/menuicon.png" height=46>
                     </div>
                     <div class="media-body">
-                      <h5>Today's Featured Collections</h5>
+                      <h5>Wet Gorillas</h5>
                       <ul class="list-links">
-                        <li><a href="#">Press Every Button</a></li>
-                        <li><a href="#">Travel with Technology</a></li>
-                        <li><a href="#">Smart Choice</a></li>
-                        <li><a href="#">Fall in Love with Tech</a></li>
-                        <li><a href="#">Smartphones at a Snip</a></li>
+                        <li><a href="sadgorilla.html">Teary</a></li>
+                        <li><a href="muddy.html">Muddy</a></li>
+                        <li><a href="water.html">Wet</a></li>
                       </ul>
 
                     </div>
@@ -62,19 +62,14 @@
                 <div class="col-sm-6 col-md-4">
                   <div class="media">
                     <div class="media-left">
-                      <a class="link-image" href="#"><img class="media-object" src="holder.js/100x100"></a>
-                      <a class="link-image link-image-sm" href="#"><img class="media-object" src="holder.js/46x46"></a>
-                      <a class="link-image link-image-sm" href="#"><img class="media-object" src="holder.js/46x46"></a>
+                      <img class="media-object" src="images/menuiconblue.png" height=150px>
                     </div>
                     <div class="media-body">
-                      <h5>Today's Trending Collections</h5>
+                      <h5>Blue Gorillas</h5>
                       <ul class="list-links">
-                        <li><a href="#">Harley-Davidson</a></li>
-                        <li><a href="#">Will you be my Valentine?</a></li>
-                        <li><a href="#">Summer Wedding Bridesmaid Dresses</a></li>
-                        <li><a href="#">Pink Wedding Centerpiece Ideas</a></li>
-                        <li><a href="#">Wedding Party Table Runners</a></li>
-                        <li><a href="#">Backyard Wedding Reception</a></li>
+                        <li><a href="periwinkle.html">Periwinkle</a></li>
+                        <li><a href="navyblue.html">Navy Blue</a></li>
+                        <li><a href="Lightblue.html">Light Blue</a></li>
                       </ul>
 
                     </div>
@@ -82,8 +77,8 @@
                 </div><!-- /col -->
 
                 <div class="col-sm-6 col-md-4">
-                  <h5>My Collections</h5>
-                  <span class="text-muted">You currently have no collections. <a href="#">Learn how to create one</a>.</span>
+                  <h5>My Cart</h5>
+                  <span class="text-muted">You currently have nothing in your cart. <a href="index.html">Shop Now!</a></span>
                 </div><!-- /col -->
 
               </div><!-- /row -->
@@ -91,31 +86,45 @@
 
           </li>
           <li class="dropdown dropdown-megamenu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fashion</a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FAQ</a>
             <div class="dropdown-container">
               <div class="row">
                 <div class="col-sm-4 col-md-2">
 
-                  <h5>Top categories</h5>
+                  <h5>Care and Keeping</h5>
                   <ul class="list-links">
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">Men's</a></li>
-                    <li><a href="#">Women's</a></li>
-                    <li><a href="#">Kids</a></li>
+                    <li><div class="popup" onclick="Function1()">What do I feed a gorilla?
+                      <span class="popuptext" id="Popup1">The bones of misbehaving children</span>
+                    </div></li>
+                    <li><div class="popup" onclick="Function2()">How often do I have to walk my gorilla?
+                      <span class="popuptext" id="Popup2">...you'll know</span>
+                    </div></li>
+                    <li><div class="popup" onclick="Function3()">Does my gorilla need a friend?
+                      <span class="popuptext" id="Popup3">Yes. By the looks of it, so do you.</span>
+                    </div></li>
                   </ul>
 
                 </div><!-- /col -->
 
                 <div class="col-sm-4 col-md-3">
 
-                  <h5>Shop for</h5>
+                  <h5>The Fun Stuff™</h5>
                   <ul class="list-links">
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">Jewelry &amp; Watches</a></li>
-                    <li><a href="#">Handbags &amp; Accessories</a></li>
-                    <li><a href="#">Health &amp; Beauty</a></li>
-                    <li><a href="#">Shoes</a></li>
-                    <li><a href="#">Sales &amp; Events</a></li>
+                    <li><div class="popup" onclick="myFunction()">Can my gorilla play Smash with me?
+                      <span class="popuptext" id="myPopup">Sure, but don't be surprised if they choose Diddy Kong every time</span>
+                    </div></li>
+                    <li><div class="popup" onclick="myFunction2()">What about RDR2?
+                      <span class="popuptext" id="myPopup2">No, they get too spooked by the horses :/</span>
+                    </div></li>
+                    <li><div class="popup" onclick="myFunction3()">Do gorillas like Ska music?
+                      <span class="popuptext" id="myPopup3">Yes. In fact, in their youth, the Wet Gorillas were in a Ska band of their own.</span>
+                    </div></li>
+                    <li><div class="popup" onclick="myFunction4()">What happens if I put my gorilla in a microwave?
+                      <span class="popuptext" id="myPopup4">He would not feel very good, unfortunately</span>
+                    </div></li>
+                    <li><a href="#"></a></li>
                   </ul>
 
                 </div><!-- /col -->
@@ -129,39 +138,20 @@
           </li>
 
           <li class="dropdown dropdown-megamenu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Electronics</a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fun Facts</a>
 
             <div class="dropdown-container">
-              <div class="row">
-                <div class="col-sm-4 col-md-2">
 
-                  <h5>Top categories</h5>
-                  <ul class="list-links">
-                    <li><a href="#">Cell Phones &amp; Accessories</a></li>
-                    <li><a href="#">Cameras &amp; Photo</a></li>
-                    <li><a href="#">Computers &amp; Tablets</a></li>
+                  <ul class="funfacts">
+                    <li>Gorillas have hands and feet like humans including opposable thumbs and big toes.</li>
+                    <li>Some gorillas in captivity have learned to use sign language to communicate with humans.</li>
+                    <li>Gorillas live in small groups called troops or bands. In each troop there is one dominant male Silverback, some female gorillas, and their offspring.</li>
+                    <li>Gorillas live around 35 years. They can live longer, up to 50 years, in captivity.</li>
+                    <li>They sleep at night in nests. Baby gorillas will stay in their mother's nests until they are around 2 ½ years old.</li>
+                    <li>Gorillas are generally calm and passive animals, however, the Silverback will defend his troop if he feels threatened.</li>
+                    <li>They are highly intelligent and have now been observed using tools in the wild.</li>
                   </ul>
 
-                </div><!-- /col -->
-
-                <div class="col-sm-4 col-md-3">
-
-                  <h5>Other categories</h5>
-                  <ul class="list-links">
-                    <li><a href="#">Car Audio, Video &amp; GPS</a></li>
-                    <li><a href="#">iPhone</a></li>
-                    <li><a href="#">iPad</a></li>
-                    <li><a href="#">TV, Audio</a></li>
-                    <li><a href="#">Video Games &amp; Consoles</a></li>
-                  </ul>
-
-                </div><!-- /col -->
-
-                <div class="col-sm-12 col-md-7">
-                  <img src="holder.js/100px200">
-                </div><!-- /col -->
-
-              </div><!-- /row -->
             </div><!-- /dropdown-container -->
           </li>
           <li class="dropdown dropdown-megamenu">
@@ -172,13 +162,11 @@
 
                 <div class="col-sm-3">
 
-                  <h5>Best deals of the day</h5>
-                  <ul class="list-links">
-                    <li><a href="#">Car Audio, Video &amp; GPS</a></li>
-                    <li><a href="#">iPhone</a></li>
-                    <li><a href="#">iPad</a></li>
-                    <li><a href="#">TV, Audio</a></li>
-                    <li><a href="#">Video Games &amp; Consoles</a></li>
+                  <ul class="frick">
+                    <li><p>Do you want gorillas?</p></li>
+                    <li><p>Do you want gorillas cheap cheap cheap??</p></li>
+                    <li><p>Do you want a whole gorilla for the price of your morning coffee?????</p></li>
+                    <li><p>WELL DO WE HAVE THE DEAL FOR YOU!!!!</p></li>
                   </ul>
 
                 </div><!-- /col -->
@@ -186,9 +174,9 @@
                 <div class="col-sm-3">
 
                   <a href="#" class="thumbnail">
-                    <img src="holder.js/100px140" alt="">
+                    <img src="images/navyblue23.jpg">
                     <div class="caption">
-                      <h5>Waterproof cellphone cover</h5>
+                      <h5>Dark Blue Gorilla</h5>
                       <p>$5.99</p>
                     </div>
                   </a>
@@ -198,10 +186,10 @@
                 <div class="col-sm-3">
 
                   <a href="#" class="thumbnail">
-                    <img src="holder.js/100px140" alt="">
+                    <img src="gorillawater.jpg">
                     <div class="caption">
-                      <h5>Large 20 slot leather watch box organizer</h5>
-                      <p>$25.99</p>
+                      <h5>Wet Gorilla</h5>
+                      <p><strike>was $3.51</strike>   NOW $82!</p>
                     </div>
                   </a>
 
@@ -210,9 +198,9 @@
                 <div class="col-sm-3">
 
                   <a href="#" class="thumbnail">
-                    <img src="holder.js/100px140" alt="">
+                    <img src="images/gorillacostume23.jpg">
                     <div class="caption">
-                      <h5>Samsung Galaxy Tab A SM-P550NZAAXAR 9.7-Inch W-Fi Tablet (Titanium with S-Pen)</h5>
+                      <h5>Light Blue Gorilla</h5>
                       <p>$319</p>
                     </div>
                   </a>
@@ -231,8 +219,8 @@
               <div class="row">
 
                 <div class="col-sm-6 col-md-4">
-                  <h5>Contact us</h5>
-                  <p>Feel free to drop us a line, we will respond as sson as possible.</p>
+                  <h5>Questions? Concerns? Lawsuits? Please don't contact us.</h5>
+                  <p>For anything else, feel free to send us an email.</p>
                   <form>
                     <div class="form-group">
                       <label class="sr-only" for="exampleInputEmail1">Email address</label>
@@ -247,7 +235,7 @@
                 </div><!-- /col -->
 
                 <div class="col-sm-6 col-md-8">
-                  <img src="holder.js/100px260?text=Map">
+                  <img src="mansaysno.jpg" width=100%>
                 </div><!-- /col -->
 
               </div><!-- /row -->
@@ -259,6 +247,9 @@
   </nav>
 
   </div>
+
+
+  
 </body>
 
 <script src="megamenutest.js"></script>

@@ -1,0 +1,21 @@
+body{
+  background-color: white;
+}
+
+.gallery {
+  background: white;
+}
+
+.gallery-cell {
+  width: 100%;
+  height: 93%;
+
+}
+
+.gallery-cell img {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  filter: #90CAF9, 20%;
+}
