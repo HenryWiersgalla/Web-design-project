@@ -205,3 +205,12 @@ body{
   to {opacity:1;}
 }
 */
+
+.infoimage{
+  height: 90%;
+  width: 100%;
+}
+
+.infoimage img{
+  width: 100%
+}
